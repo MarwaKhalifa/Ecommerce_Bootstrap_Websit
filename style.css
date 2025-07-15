@@ -130,6 +130,8 @@ header {
                 border-bottom: 0.5px solid #B5B5B5
             }
 
+
+
             .searchCatogry {
                 position: relative;
 
@@ -213,6 +215,148 @@ header {
     }
 
     .product {
+        .filtrs {
+            width: 250px;
+            max-width: 100%;
+            height: 56;
+            top: 120px;
+            left: 15px;
+            gap: 16px;
+            opacity: 1;
+
+            .leftarrow {
+                width: 9.498680114746094px;
+                height: 17.48130226135254px;
+                top: 3.27px;
+                left: 7.25px;
+                opacity: 1;
+                color: #000000;
+            }
+
+            p {
+                width: 288px;
+                height: 32px;
+                opacity: 1;
+                font-family: Roboto;
+                font-weight: 500;
+                font-style: Medium;
+                font-size: 24px;
+                line-height: 32px;
+                letter-spacing: 1%;
+                color: #000000;
+
+
+            }
+
+            .filterimg {
+                width: 24px;
+                height: 24;
+                opacity: 1;
+
+            }
+        }
+
+        .slider {
+        .slidecanvas{
+         width: 100%;
+
+        }
+
+            .categoryContent {
+
+                .categoryframe {
+                    width: 100%;
+                    height: 48px;
+                    gap: 10px;
+                    opacity: 1;
+                    border-bottom-width: 0.5px;
+                    padding-top: 12px;
+                    padding-bottom: 12px;
+                    border-bottom: 0.5px solid #B5B5B5
+                }
+
+
+
+                .searchCatogry {
+                    position: relative;
+
+                    .serchinput {
+                        width: 100%;
+                        height: 40px;
+                        gap: 8px;
+                        opacity: 1;
+                        border-radius: 8px;
+                        padding-top: 8px;
+                        padding-right: 16px;
+                        padding-bottom: 8px;
+                        padding-left: 16px;
+                        background: #F5F5F5;
+                        border: none;
+
+                    }
+
+                    .srchlbl {
+                        position: absolute;
+                        top: 21px;
+                        left: 21px;
+
+                        span {
+                            font-family: Roboto;
+                            font-weight: 500;
+                            font-style: Medium;
+                            font-size: 14px;
+                            line-height: 18px;
+                            letter-spacing: 0%;
+                            color: #656565;
+                            opacity: 50%;
+
+                        }
+                    }
+
+                }
+
+                .selectProduct {
+                    label {
+                        font-family: Roboto;
+                        font-weight: 500;
+                        font-style: Medium;
+                        font-size: 15px;
+                        line-height: 24px;
+                        letter-spacing: 0%;
+                        color: #000000;
+
+                    }
+
+                    .selectOption:checked {
+                        background-color: #000000;
+                    }
+
+                }
+
+                .applybtn {
+                    width: 100%;
+                    height: 48px;
+                    gap: 8px;
+                    opacity: 1;
+                    border-radius: 8px;
+                    padding-top: 12px;
+                    padding-right: 64px;
+                    padding-bottom: 12px;
+                    padding-left: 64px;
+                    background: #000000;
+                    font-family: Roboto;
+                    font-weight: 500;
+                    font-style: Medium;
+                    font-size: 14px;
+                    line-height: 24px;
+                    letter-spacing: 0%;
+                    text-align: center;
+                    color: #FFFFFF;
+
+                }
+            }
+        }
+
         .availablePrdct {
             p {
                 font-family: Roboto;
@@ -322,11 +466,87 @@ header {
                 line-height: 24px;
                 letter-spacing: 3%;
                 text-align: center;
-                &:hover{
+
+                &:hover {
                     background-color: black;
                     color: white;
                 }
             }
         }
     }
+}
+
+footer {
+    background-color: #121212;
+    width: 1439px;
+    max-width: 100%;
+    gap: 24px;
+    opacity: 1;
+    padding-top: 104px;
+    padding-right: 160px;
+    padding-bottom: 104px;
+    padding-left: 160px;
+
+    .leftfooter {
+        .social {
+            width: 384px;
+            max-width: 100%;
+            gap: 24px;
+            opacity: 1;
+
+            img {
+                width: 65.39956665039062px;
+                max-width: 50%;
+                height: 22.87200164794922;
+                opacity: 1;
+
+            }
+
+            p {
+                font-family: Roboto;
+                font-weight: 500;
+                font-style: Medium;
+                font-size: 14px;
+                line-height: 171%;
+                letter-spacing: 0%;
+                color: #CFCFCF;
+                padding-top: 24px;
+
+
+            }
+        }
+    }
+
+    .rightfooter,
+    .midfooter {
+
+        h5 {
+            font-family: Roboto;
+            font-weight: 600;
+            font-style: SemiBold;
+            font-size: 16px;
+            line-height: 16px;
+            letter-spacing: 0%;
+            color: #FFFFFF;
+
+
+        }
+
+
+        p {
+            color: #CFCFCF;
+            font-family: Roboto;
+            font-weight: 400;
+            font-style: Regular;
+            font-size: 14px;
+            line-height: 32px;
+            letter-spacing: 0%;
+
+
+        }
+
+    }
+  
+
+    
 }
