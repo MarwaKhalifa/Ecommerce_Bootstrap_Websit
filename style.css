@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1,
+button,
+p,
+a {
+    font-family: Roboto;
+}
+
+header {
+    width: 1439px;
+    max-width: 100%;
+    height: 88px;
+    border-bottom-width: 1px;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-right: 160px;
+    padding-bottom: 16px;
+    padding-left: 160px;
+    opacity: 1;
+    border-bottom: 1px solid #B5B5B5;
+
+    .left {
+
+        img {
+            width: 65.39956665039062;
+            height: 22.87200164794922;
+            opacity: 1;
+            color: #000000;
+
+        }
+
+        .searchlabel {
+            position: relative;
+
+            input {
+                width: 372px;
+                height: 56px;
+                gap: 8px;
+                opacity: 1;
+                border-radius: 8px;
+                padding: 16px;
+                background-color: #F5F5F5;
+                border: none;
+            }
+
+            .iconsearch {
+                position: absolute;
+                top: 16px;
+                left: 16px;
+
+                img {
+                    width: 16px;
+                    height: 16px;
+                    opacity: 1;
+                    top: 4px;
+                    left: 4px;
+                    border-width: 1.5px;
+                }
+
+                span {
+                    font-family: Roboto;
+                    font-weight: 500;
+                    font-style: Medium;
+                    font-size: 14px;
+                    line-height: 18px;
+                    letter-spacing: 0%;
+                    color: #656565;
+                    opacity: 0.5;
+                }
+
+
+            }
+        }
+    }
+
+    .right {
+        nav {
+            a {
+                font-family: Roboto;
+                font-weight: 500;
+                font-style: Medium;
+                font-size: 16px;
+                line-height: 100%;
+                letter-spacing: 0%;
+                color: #000000;
+                opacity: 30%;
+                text-decoration: none;
+
+                &:hover {
+                    opacity: 1;
+                    text-decoration: underline;
+
+                }
+            }
+
+            icons {
+                img {
+                    width: 20px;
+                    height: 17.833524703979492px;
+                    opacity: 1;
+                    top: 7px;
+                    left: 6px;
+                    border-width: 1.5px;
+
+                }
+            }
+        }
+    }
+}
+
+.content {
+    .category {
+        .categoryContent {
+
+            .categoryframe {
+                width: 256px;
+                height: 48px;
+                gap: 10px;
+                opacity: 1;
+                border-bottom-width: 0.5px;
+                padding-top: 12px;
+                padding-bottom: 12px;
+                border-bottom: 0.5px solid #B5B5B5
+            }
+
+            .searchCatogry {
+                position: relative;
+
+                .serchinput {
+                    width: 256px;
+                    max-width: 100%;
+                    height: 40px;
+                    gap: 8px;
+                    opacity: 1;
+                    border-radius: 8px;
+                    padding-top: 8px;
+                    padding-right: 16px;
+                    padding-bottom: 8px;
+                    padding-left: 16px;
+                    background: #F5F5F5;
+                    border: none;
+
+                }
+
+                .srchlbl {
+                    position: absolute;
+                    top: 21px;
+                    left: 21px;
+
+                    span {
+                        font-family: Roboto;
+                        font-weight: 500;
+                        font-style: Medium;
+                        font-size: 14px;
+                        line-height: 18px;
+                        letter-spacing: 0%;
+                        color: #656565;
+                        opacity: 50%;
+
+                    }
+                }
+
+            }
+
+            .selectProduct {
+                label {
+                    font-family: Roboto;
+                    font-weight: 500;
+                    font-style: Medium;
+                    font-size: 15px;
+                    line-height: 24px;
+                    letter-spacing: 0%;
+                    color: #000000;
+
+                }
+
+                .selectOption:checked {
+                    background-color: #000000;
+                }
+
+            }
+
+            .applybtn {
+                width: 256px;
+                max-width: 100%;
+                height: 48px;
+                gap: 8px;
+                opacity: 1;
+                border-radius: 8px;
+                padding-top: 12px;
+                padding-right: 64px;
+                padding-bottom: 12px;
+                padding-left: 64px;
+                background: #000000;
+                font-family: Roboto;
+                font-weight: 500;
+                font-style: Medium;
+                font-size: 14px;
+                line-height: 24px;
+                letter-spacing: 0%;
+                text-align: center;
+                color: #FFFFFF;
+
+            }
+        }
+    }
+
+    .product {
+        .availablePrdct {
+            p {
+                font-family: Roboto;
+                font-weight: 500;
+                font-style: Medium;
+                font-size: 16px;
+                line-height: 16px;
+                letter-spacing: 3%;
+                color: #6C6C6C;
+
+            }
+
+            span {
+                font-family: Roboto;
+                font-weight: 500;
+                font-style: Medium;
+                font-size: 20px;
+                line-height: 16px;
+                letter-spacing: 3%;
+                text-align: center;
+                color: #000000;
+            }
+        }
+
+        .cardCoatainer {
+            width: 266.3333435058594px;
+            height: 370px;
+            min-width: 200px;
+            padding-top: 24px;
+            padding-right: 16px;
+            padding-bottom: 24px;
+            padding-left: 16px;
+            gap: 16px;
+            opacity: 1;
+            border-radius: 9px;
+            background: #F6F6F6;
+
+            .cardContent {
+                img {
+                    width: 234.33334350585938px;
+                    max-width: 100%;
+                    height: 160px;
+                    opacity: 1;
+                    border-radius: 6px;
+                    border-width: 1px;
+                    border: 1px solid #28282828
+                }
+
+                p {
+                    font-family: Roboto;
+                    font-weight: 500;
+                    font-style: Medium;
+                    font-size: 16px;
+                    line-height: 24px;
+                    letter-spacing: 0%;
+                    color: #121212;
+
+                }
+
+                button {
+                    width: 234.33334350585938px;
+                    max-width: 100%;
+                    height: 48;
+                    gap: 8px;
+                    opacity: 1;
+                    padding-top: 12px;
+                    padding-right: 64px;
+                    padding-bottom: 12px;
+                    padding-left: 64px;
+                    border-radius: 8px;
+                    background: #000000;
+                    color: #FFFFFF;
+                    font-family: Roboto;
+                    font-weight: 500;
+                    font-style: Medium;
+                    font-size: 14px;
+                    line-height: 24px;
+                    letter-spacing: 0%;
+                    text-align: center;
+                    border: none;
+
+                }
+            }
+
+        }
+    }
+
+
+    .paginationBtns {
+        li {
+            a {
+                width: 32px;
+                height: 32px;
+                gap: 8px;
+                opacity: 1;
+                padding-top: 4px;
+                padding-right: 11px;
+                padding-bottom: 4px;
+                padding-left: 11px;
+                border-radius: 5px;
+                background: #F6F6F6;
+                color: #000000;
+                font-family: Roboto;
+                font-weight: 500;
+                font-style: Medium;
+                font-size: 16px;
+                line-height: 24px;
+                letter-spacing: 3%;
+                text-align: center;
+                &:hover{
+                    background-color: black;
+                    color: white;
+                }
+            }
+        }
+    }
+}
